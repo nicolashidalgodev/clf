@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLF Arquitectura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll">
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#inicio">
+                    <img src="assets/clf-logo.svg" alt="CLF Arquitectura Logo" height="48" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" data-bs-theme="dark">
+                        <h5 class="offcanvas-title d-none" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link" aria-current="true" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link" href="#portafolio">Portafolio</a>
+                            </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link" href="#somos">Quiénes Somos</a>
+                            </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link" href="#fichas">Fichas</a>
+                            </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="inicio" class="hero bg-dark text-white">
+            <div class="container-fluid h-100">
+                <div class="row h-100 d-flex align-items-center justify-content-between">
+                    <div class="col-12 h-50 d-flex align-items-end justify-content-between">
+                        <a href="">
+                            <img src="assets/slider-right-arrow.svg" alt="" class="arrow">
+                        </a>
+                        <a href="">
+                            <img src="assets/slider-left-arrow.svg" alt="" class="arrow">
+                        </a>
+                    </div>
+                    <div class="col-12 h-50 d-flex align-items-center">
+                        <header class="header">
+                            <h1 class="display-3 mb-4 fw-lighter">Belleza que se habita. <br> Técnica que se siente.</h1>
+                            <a href="#" class="boton boton-banner">Contactar al estudio</a>
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/divider.svg" class="divider" alt="">
+        </section>
+        <section id="portafolio" class="position-relative">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="text-center">
+                            <h2>Portafolio de obras</h2>
+                            <p>Arquitectura y construcción de alta gama en viviendas, segundas residencias y remodelaciones premium.</p>
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0 h-100">
+                <div class="row h-100 d-flex align-items-center justify-content-between">
+                    <div class="col-12 h-50 d-flex align-items-end justify-content-between overflow-hidden">
+                        <a href="">
+                            <img src="assets/slider-right-arrow.svg" alt="" class="arrow">
+                        </a>
+                        <figure class="w-100 h-50">
+                            <img src="assets/slider-1.jpg" alt="" class="w-100">
+                        </figure>
+                        <a href="">
+                            <img src="assets/slider-left-arrow.svg" alt="" class="arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="somos" class="bg-dark text-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="assets/quienes-somos.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-6">
+                        <header>
+                            <h2>Arquitectura & construcción sin quiebres</h2>
+                        </header>
+                        <p>
+                            CLF Arquitectura es un estudio especializado en el diseño y construcción de viviendas y
+                            remodelaciones de alto estándar. Nuestro sello nace de una convicción clara: <b>un
+                            proyecto funciona cuando está bien pensado, bien diseñado y bien construido</b>,
+                            desde el primer croquis hasta la entrega final.
+                        </p>
+                        <p>
+                            Cristián Leiva Fadic, arquitecto de la Universidad de Chile con amplia trayectoria y
+                            participación en obras emblemáticas - como Torre Titanium, Parque Titanium, oficinas
+                            corporativas y proyectos residenciales de gran escala - lidera el estudio junto a Christian
+                            Araus, constructor civil con más de <b>370.000 m² edificados</b> en empresas de primer nivel.
+                        </p>
+                        <p>
+                            Esta dupla arquitecto-constructor permite un proceso integrado, preciso y
+                            excepcionalmente controlado. Cada decisión estética está respaldada por experiencia en
+                            obra real; cada solución técnica responde a criterios de habitabilidad, confort y
+                            durabilidad.
+                        </p>
+                        <p>
+                            Nuestro enfoque es simple: <b>crear espacios contemporáneos, sofisticados y
+                            funcionales</b>, donde la belleza y la vida cotidiana conviven con naturalidad. El lujo
+                            silencioso no sólo se ve, también se siente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fichas">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-9 mb-4">
+                        <header>
+                            <h2 class="mb-3 h1 fw-lighter">Fichas de proyecto</h2>
+                            <p class="fs-5 fw-lighter">Diseñamos y construimos proyectos residenciales donde técnica, funcionalidad y estética alcanzan su punto de equilibrio. Cada obra es el resultado de un proceso personalizado y un control riguroso en todas sus etapas.</p>
+                        </header>
+                    </div>
+                    <div class="col-4">
+                        <figure class="figure">
+                            <img src="assets/ficha-1.jpg" alt="" class="w-100">
+                        </figure>
+                        <h3>Casa RD</h3>
+                        <p class="mb-4 w-75 ">"La belleza es consecuencia de una buena decisión técnica"</p>
+                        <a href="" class="boton">Ver ficha</a>
+                    </div>
+                    <div class="col-4">
+                        <figure class="figure">
+                            <img src="assets/ficha-2.jpg" alt="" class="w-100">
+                        </figure>
+                        <h3>Casa FM</h3>
+                        <p class="mb-4 w-75 ">"La precisión constructiva define la calidad de un proyecto"</p>
+                        <a href="" class="boton">Ver ficha</a>
+                    </div>
+                    <div class="col-4">
+                        <figure class="figure">
+                            <img src="assets/ficha-3.jpg" alt="" class="w-100">
+                        </figure>
+                        <h3>Casa DJ</h3>
+                        <p class="mb-4 w-75 ">"El detalle correcto cambia la experiencia completa de un espacio"</p>
+                        <a href="" class="boton">Ver ficha</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-<1>">
+                        <header>
+                            <h2>Hablemos de<br>tu proyecto</h2>
+                         </header>
+                    </div>
+                    <div class="col-5">
+                        <p>
+                            Si estás pensando en una vivienda excepcional — tu casa, una segunda
+                            residencia o una remodelación total — hablemos.
+                        </p>
+                        <p>
+                            En CLF Arquitectura desarrollamos obras de alto estándar con una metodología
+                            boutique: precisión técnica, decisiones inteligentes y una ejecución impecable
+                            que lleva cada proyecto a su mejor versión.
+                        </p>
+                        <p>
+                            Del concepto a la obra terminada, trabajamos contigo en cada paso.
+                        </p>
+                        <p>
+                            Presupuestos a suma alzada, sin adicionales
+                        </p>
+                    </div>
+                    <div class="col-3 mx-auto">
+                        <form action="">
+                            <label for="nombre" class="form-label fs-5 fw-normal mb-2">Nombre</label>
+                            <input id="nombre" name="nombre" class="form-control mb-3" type="text" value="">
+                            <label for="telefono" class="form-label fs-5 fw-normal mb-2">Teléfono</label>
+                            <input id="telefono" name="telefono" class="form-control mb-3" type="text" value="">
+                            <label for="email" class="form-label fs-5 fw-normal mb-2">Email</label>
+                            <input id="email" name="email" class="form-control mb-3" type="text" value="">
+                            <label for="mensaje" class="form-label fs-5 fw-normal mb-2">Mensaje</label>
+                            <textarea class="form-control mb-4" id="mensaje" name="mensaje" rows="3"></textarea>
+                            <a href="#" class="boton p-1 ms-auto">Enviar</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer py-5">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-between align-items-end">
+                    <div class="col-3">
+                        <img src="assets/clf-arquitectura-logo.svg" alt="" class="w-100 mb-5">
+                        <nav>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <a href="#inicio" class="nav-link">Inicio</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="#portafolio" class="nav-link">Portafolio</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="#somos" class="nav-link">Quiénes somos</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="#fichas" class="nav-link">Fichas</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="#contacto" class="nav-link">Contacto</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-1 mb-3 d-flex justify-content-between">
+                        <a href="">
+                            <img src="assets/icon-instagram.svg" alt="" width="32">
+                        </a>
+                        <a href="" class="link">
+                            <img src="assets/icon-linkedin.svg" alt="" width="32">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
