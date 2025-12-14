@@ -63,6 +63,10 @@ h2, h3{
     width: 100%;
 }
 
+.offcanvas.offcanvas-end{
+    background: var(--black-1)
+}
+
 .list-unstyled a{
     color: white;
     text-decoration: none;
