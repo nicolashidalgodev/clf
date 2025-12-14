@@ -45,33 +45,51 @@ const intersectionCallback = (entries) => {
   })
 
 
-const swiper = new Swiper('.swiper-hacemos', {
-    grabCursor: true,
-    spaceBetween: 30,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    // Responsive breakpoint
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        centeredSlides: true,
-      },
-      960: {
-        slidesPerView: 2,
-      },
-      1420: {
-        slidesPerView: 3,
-      },
-    },
-  });
+/* swiper */
 
-  var swiper1 = new Swiper(".swiper-casos", {
-    grabCursor: true,
-    slidesPerView: 1,
-    navigation: {
-      nextEl: '.swiper-button-next-caso',
-      prevEl: '.swiper-button-prev-caso',
+var swiper1 = new Swiper(".swiperPortafolio", {
+  slidesPerView: "auto",
+  centeredSlides: true,
+  spaceBetween: 20,
+  breakpoints:{
+    '960': {
+      spaceBetween: 40
     }
-  });
+  },
+  grabCursor: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+});
+
+var swiper2 = new Swiper(".swiperHero", {
+  spaceBetween: 30,
+  effect: "fade",
+  autoplay: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper2 = new Swiper(".swiperFichas", {
+  slidesPerView: "1",
+  breakpoints:{
+    800: {
+      slidesPerView: "2",
+    },
+    1200: {
+      slidesPerView: "3",
+    }
+  },
+  centeredSlides: true,
+  autoplay: true,
+  spaceBetween: 20,
+  grabCursor: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

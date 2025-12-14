@@ -52,76 +52,78 @@
             </div>
         </nav>
         <section id="inicio" class="hero bg-dark text-white">
-            <div class="container-fluid h-100">
-                <div class="row h-100 d-flex align-items-center justify-content-between">
-                    <div class="col-12 h-50 d-flex align-items-end justify-content-between">
-                        <a href="">
-                            <img src="assets/slider-right-arrow.svg" alt="" class="arrow">
-                        </a>
-                        <a href="">
-                            <img src="assets/slider-left-arrow.svg" alt="" class="arrow">
-                        </a>
-                    </div>
-                    <div class="col-12 h-50 d-flex align-items-center">
-                        <header class="header">
-                            <h1 class="display-3 mb-4 fw-lighter">Belleza que se habita. <br> Técnica que se siente.</h1>
-                            <a href="#" class="boton boton-banner">Contactar al estudio</a>
-                        </header>
-                    </div>
+            <header class="header">
+                <h1 class="mb-4">Belleza que se habita. <br> Técnica que se siente.</h1>
+                <a href="#contacto" class="boton boton-banner">Contactar al estudio</a>
+            </header>
+            <div class="swiper swiperHero">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/banner-slider-1.jpg" />
                 </div>
+                <div class="swiper-slide">
+                    <img src="assets/slider-2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/slider-3.jpg" />
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            <img src="assets/divider.svg" class="divider" alt="">
         </section>
-        <section id="portafolio" class="position-relative">
+        <section id="portafolio">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <header class="text-center">
-                            <h2>Portafolio de obras</h2>
-                            <p>Arquitectura y construcción de alta gama en viviendas, segundas residencias y remodelaciones premium.</p>
+                            <h2 class="fs-1">Portafolio de obras</h2>
+                            <p class="fs-5 mb-5">Arquitectura y construcción de alta gama en viviendas, segundas residencias y remodelaciones premium.</p>
                         </header>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid px-0 h-100">
-                <div class="row h-100 d-flex align-items-center justify-content-between">
-                    <div class="col-12 h-50 d-flex align-items-end justify-content-between overflow-hidden">
-                        <a href="">
-                            <img src="assets/slider-right-arrow.svg" alt="" class="arrow">
-                        </a>
-                        <figure class="w-100 h-50">
-                            <img src="assets/slider-1.jpg" alt="" class="w-100">
-                        </figure>
-                        <a href="">
-                            <img src="assets/slider-left-arrow.svg" alt="" class="arrow">
-                        </a>
+            <div class="swiper swiperPortafolio">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/slider-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/slider-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/slider-3.jpg" alt="">
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
-        <section id="somos" class="bg-dark text-white">
+        <section id="somos">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="assets/quienes-somos.jpg" alt="" class="w-100">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 justify-content-center d-flex">
+                        <figure class="figure">
+                            <img src="assets/quienes-somos.jpg" alt="" class="img-fluid">
+                        </figure>
                     </div>
-                    <div class="col-6">
-                        <header>
-                            <h2>Arquitectura & construcción sin quiebres</h2>
+                    <div class="col-md-6 pe-md-5">
+                        <header class="titulo">
+                            <h2 class="fs-1">Arquitectura &<br> construcción sin quiebres</h2>
                         </header>
-                        <p>
+                        <p class="mb-5 pe-md-4">
                             CLF Arquitectura es un estudio especializado en el diseño y construcción de viviendas y
                             remodelaciones de alto estándar. Nuestro sello nace de una convicción clara: <b>un
                             proyecto funciona cuando está bien pensado, bien diseñado y bien construido</b>,
                             desde el primer croquis hasta la entrega final.
                         </p>
-                        <p>
+                        <p class="mb-5 pe-4">
                             Cristián Leiva Fadic, arquitecto de la Universidad de Chile con amplia trayectoria y
                             participación en obras emblemáticas - como Torre Titanium, Parque Titanium, oficinas
                             corporativas y proyectos residenciales de gran escala - lidera el estudio junto a Christian
                             Araus, constructor civil con más de <b>370.000 m² edificados</b> en empresas de primer nivel.
                         </p>
-                        <p>
+                        <p class="mb-5 pe-4">
                             Esta dupla arquitecto-constructor permite un proceso integrado, preciso y
                             excepcionalmente controlado. Cada decisión estética está respaldada por experiencia en
                             obra real; cada solución técnica responde a criterios de habitabilidad, confort y
@@ -138,49 +140,95 @@
         </section>
         <section id="fichas">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-9 mb-4">
-                        <header>
-                            <h2 class="mb-3 h1 fw-lighter">Fichas de proyecto</h2>
-                            <p class="fs-5 fw-lighter">Diseñamos y construimos proyectos residenciales donde técnica, funcionalidad y estética alcanzan su punto de equilibrio. Cada obra es el resultado de un proceso personalizado y un control riguroso en todas sus etapas.</p>
-                        </header>
+                <div class="row justify-content-between">
+                    <div class="col-md-9 mb-4">
+                        <article>
+                            <header>
+                                <h2 class="mb-3 h1 fw-lighter">Fichas de proyecto</h2>
+                                <p class="fs-5 fw-lighter">Diseñamos y construimos proyectos residenciales donde técnica, funcionalidad y estética alcanzan su punto de equilibrio. Cada obra es el resultado de un proceso personalizado y un control riguroso en todas sus etapas.</p>
+                            </header>
+                        </article>
                     </div>
-                    <div class="col-4">
-                        <figure class="figure">
-                            <img src="assets/ficha-1.jpg" alt="" class="w-100">
-                        </figure>
-                        <h3>Casa RD</h3>
-                        <p class="mb-4 w-75 ">"La belleza es consecuencia de una buena decisión técnica"</p>
-                        <a href="" class="boton">Ver ficha</a>
+                </div>
+                <div class="row justify-content-between d-none d-lg-flex">
+                    <div class="col-md-4 mb-5">
+                        <article class="ficha">
+                            <figure class="figure">
+                                <img src="assets/ficha-1.jpg" alt="" class="w-100">
+                            </figure>
+                            <h3>Casa RD</h3>
+                            <p class="mb-4 w-75 ">"La belleza es consecuencia de una buena decisión técnica"</p>
+                            <a href="" class="boton">Ver ficha</a>
+                        </article>
                     </div>
-                    <div class="col-4">
-                        <figure class="figure">
-                            <img src="assets/ficha-2.jpg" alt="" class="w-100">
-                        </figure>
-                        <h3>Casa FM</h3>
-                        <p class="mb-4 w-75 ">"La precisión constructiva define la calidad de un proyecto"</p>
-                        <a href="" class="boton">Ver ficha</a>
+                    <div class="col-md-4 mb-5">
+                        <article class="ficha">
+                            <figure class="figure">
+                                <img src="assets/ficha-2.jpg" alt="" class="w-100">
+                            </figure>
+                            <h3>Casa FM</h3>
+                            <p class="mb-4 w-75 ">"La precisión constructiva define la calidad de un proyecto"</p>
+                            <a href="" class="boton">Ver ficha</a>
+                        </article>
                     </div>
-                    <div class="col-4">
-                        <figure class="figure">
-                            <img src="assets/ficha-3.jpg" alt="" class="w-100">
-                        </figure>
-                        <h3>Casa DJ</h3>
-                        <p class="mb-4 w-75 ">"El detalle correcto cambia la experiencia completa de un espacio"</p>
-                        <a href="" class="boton">Ver ficha</a>
+                    <div class="col-md-4 mb-5">
+                        <article class="ficha">
+                            <figure class="figure">
+                                <img src="assets/ficha-3.jpg" alt="" class="w-100">
+                            </figure>
+                            <h3>Casa DJ</h3>
+                            <p class="mb-4 w-75 ">"El detalle correcto cambia la experiencia completa de un espacio"</p>
+                            <a href="" class="boton">Ver ficha</a>
+                        </article>
                     </div>
+                </div>
+                <div class="swiper swiperFichas d-lg-none">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article class="ficha">
+                                <figure class="figure">
+                                    <img src="assets/ficha-1.jpg" alt="" class="w-100">
+                                </figure>
+                                <h3>Casa RD</h3>
+                                <p class="mb-4 w-75 ">"La belleza es consecuencia de una buena decisión técnica"</p>
+                                <a href="" class="boton">Ver ficha</a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="ficha">
+                                <figure class="figure">
+                                    <img src="assets/ficha-2.jpg" alt="" class="w-100">
+                                </figure>
+                                <h3>Casa FM</h3>
+                                <p class="mb-4 w-75 ">"La precisión constructiva define la calidad de un proyecto"</p>
+                                <a href="" class="boton">Ver ficha</a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="ficha">
+                                <figure class="figure">
+                                    <img src="assets/ficha-3.jpg" alt="" class="w-100">
+                                </figure>
+                                <h3>Casa DJ</h3>
+                                <p class="mb-4 w-75 ">"El detalle correcto cambia la experiencia completa de un espacio"</p>
+                                <a href="" class="boton">Ver ficha</a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
         <section id="contacto">
             <div class="container-fluid">
                 <div class="row justify-content-between">
-                    <div class="col-<1>">
+                    <div class="col-md-1>"
                         <header>
                             <h2>Hablemos de<br>tu proyecto</h2>
                          </header>
                     </div>
-                    <div class="col-5">
+                    <div class="col-md-5">
                         <p>
                             Si estás pensando en una vivienda excepcional — tu casa, una segunda
                             residencia o una remodelación total — hablemos.
@@ -197,7 +245,7 @@
                             Presupuestos a suma alzada, sin adicionales
                         </p>
                     </div>
-                    <div class="col-3 mx-auto">
+                    <div class="col-md-4 mx-auto">
                         <form action="">
                             <label for="nombre" class="form-label fs-5 fw-normal mb-2">Nombre</label>
                             <input id="nombre" name="nombre" class="form-control mb-3" type="text" value="">
@@ -216,7 +264,7 @@
         <footer class="footer py-5">
             <div class="container-fluid">
                 <div class="row d-flex justify-content-between align-items-end">
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img src="assets/clf-arquitectura-logo.svg" alt="" class="w-100 mb-5">
                         <nav>
                             <ul class="list-unstyled">
@@ -238,12 +286,12 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-1 mb-3 d-flex justify-content-between">
-                        <a href="">
-                            <img src="assets/icon-instagram.svg" alt="" width="32">
+                    <div class="col-4 col-md-1 ms-auto ms-md-0 mb-3 d-flex justify-content-between">
+                        <a class="icon-rrss" href="https://www.instagram.com/clf_arquitectura/" target="_blank">
+                            <img src="assets/icon-instagram.svg" alt="">
                         </a>
-                        <a href="" class="link">
-                            <img src="assets/icon-linkedin.svg" alt="" width="32">
+                        <a class="icon-rrss" href="https://www.linkedin.com/in/cristi%C3%A1n-leiva-fadic-b71676b7/" target="_blank">
+                            <img src="assets/icon-linkedin.svg" alt="">
                         </a>
                     </div>
                 </div>
