@@ -147,7 +147,7 @@ h2, h3{
     }
 }
 
-.hero .header h1{
+.header .titulo{
     position: relative;
     font-weight: 200;
     letter-spacing: 1px;
@@ -155,13 +155,13 @@ h2, h3{
 }
 
 @media (min-width: 960px){
-    .hero .header h1{
+    .header .titulo{
         font-size: 2rem;
         font-size: 4.5rem;
     }
 }
 
-.hero .header h1:before{
+.header .titulo:before{
     content: '';
     width: 50%;
     height: 2px;
@@ -462,4 +462,99 @@ h2, h3{
 
 .footer .icon-rrss img{
     width: 32px;
+}
+
+/* #ficha  */
+
+#ficha .banner-ficha{
+    background-color: var(--black-1);
+    height: 80vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+#ficha .banner-ficha:after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--black-1);
+    opacity: .6;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+
+#ficha section{
+    padding: 0;
+}
+
+#ficha .header .titulo{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+#ficha .header .titulo:before{
+    width: 100px;
+    left: -116px;
+    top: 26px;
+}
+
+#ficha .header small{
+    color: #828282;
+}
+
+#ficha dl dt{
+    text-transform: uppercase;
+    color: #828282;
+    font-size: .9rem;
+    font-weight: light;
+}
+
+#ficha dl dd{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+#ficha .lead{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: none;
+    position: relative;
+}
+
+#ficha .lead:before{
+    content: '';
+    width: 100px;
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: -20px;
+    background: var(--black-1)
+}
+
+#ficha .col-12 .figure{
+    max-height: 80vh;
+    overflow: hidden;
+    height: 100%;
+}
+
+#ficha .col-md-6 .figure{
+    max-height: 70vh;
+    overflow: hidden;
+    height: 100%;
+}
+
+#ficha .figure img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
 }
