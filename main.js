@@ -82,7 +82,7 @@ var swiper2 = new Swiper(".swiperFichas", {
     },
     1200: {
       slidesPerView: "3",
-    }
+    },
   },
   centeredSlides: true,
   autoplay: true,
